@@ -45,8 +45,3 @@ app.delete('/users/:id', (req, res) => {
 app.listen(port, () => {
 	console.log(`Server running at http://localhost:${port}`); 
 });
-Expected Output :
-
-GET /users→ returns list of users
-POST /users→ adds new user
-DELETE /users/1→ deletes user with ID 1
